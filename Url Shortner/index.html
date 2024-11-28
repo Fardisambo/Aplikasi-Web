@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Url Sorterner</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul class="nav-links">
+            <li class="link"><a href="../index.html">Home</a></li>
+            <li id="link1" class="link"><a href="../Pass Generator/index.html">Password Generator</a></li>
+            <li id="link2" class="link"><a href="../Text Encryptor/index.html">Text Encryptor</a></li>
+            <li id="link2" class="link"><a href="../tutorial/index.html">Tutorial</a></li>
+            <li id="link2" class="link"><a href="../QR Code/index.html">Make QR code</a></li>
+            <li id="link3" class="link"><a href="../Speech App/index.html">Text To Speech</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <i class="bx bx-link-alt"></i>
+        <h1>Url Shortner</h1>
+        <label for="originalUrl">Enter URL To Shorten :</label>
+        <input type="text" id="originalUrl" placeholder="https://example.com">
+        <div class="buttons">
+            <button id="reload-btn">Reload</button>
+            <button id="short-btn">Short It</button>
+        </div>
+        <label for="shortenedUrl">Shortened URL :</label>
+        <textarea id="shortenedUrl" rows="3" readonly></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

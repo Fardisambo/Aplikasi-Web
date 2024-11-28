@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the body takes at least the full viewport height */
+    background: linear-gradient(135deg, #333, #66ccff); /* Gradasi dari hitam ke biru muda */
+}
+
+nav {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.5); /* Warna latar belakang dengan transparansi */
+    backdrop-filter: blur(10px); /* Efek blur pada latar belakang */
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.link {
+    margin: 0 15px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+.link a:hover,
+.link.active a {
+    color: blue;
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+    border-radius: 5px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    width: 95%;
+    max-width: 800px; /* Limit width for better readability */
+    background-color: #66ccff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    margin-top: 80px; /* Add margin to create space from the navbar */
+}
+
+h2 {
+    margin: 20px 0 10px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #555;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px; /* Add spacing after paragraphs */
+}
+
+ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 15px; /* Add spacing between list items */
+}
+
+img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto;
+    border-radius: 5px; /* Rounded corners for images */
+    margin-top: 10px; /* Add spacing above images */
+}
+    </style>
+    <title>Tutorial</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul class="nav-links">
+            <li class="link"><a href="../index.html">Home</a></li>
+            <li id="link1" class="link"><a href="../Pass Generator/index.html">Password Generator</a></li>
+            <li id="link2" class="link"><a href="../Text Encryptor/index.html">Text Encryptor</a></li>
+            <li id="link3" class="link"><a href="../QR Code/index.html">Make QR Code</a></li>
+            <li id="link4" class="link"><a href="../Speech App/index.html">Text To Speech</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Welcome to the Tutorial</h1>
+            <p>Tutorial reset password gmail</p>
+        </header>
+        
+        <ul>
+            <li><strong>Password Generator:</strong> Membuat password yang kuat dengan mudah.</li>
+            <p>Cara membuat password yang kuat: Jangan takut untuk menggunakan karakter khusus. Jaman sekarang sudah tidak ada lagi password yang hanya terdiri dari angka. Jangan takut lupa Password, tinggal tekan tombol reset password dan beberapa langkah untuk memulihkan password selesai password anda selesai di simpan. Jangan lupa untuk menyimpan di tempat yang aman seperti di kertas</p>
+            <li class="tutorial"><strong>Masukan email: masukan email yang lupa sandi</strong></li>
+            <img src="assets/change-youtube-password-through-official-website-2-1.png" alt="">
+            <li class="tutorial"><strong>klik forgot password</strong></li>
+            <img src="assets/change-youtube-password-through-official-website-2-2.png" alt="">
+            <li class="tutorial"><strong>Masukan email recovery kalian</strong></li>
+            <img src="assets/change-youtube-password-through-official-website-2-3.png" alt="">
+            <li class="strong"><strong>Masukan code yang di kirim ke email recovery kalian lalu masukan</strong></li>
+            <img src="assets/change-youtube-password-through-official-website-2-4.png" alt="">
+            <li class="strong"><strong>Setelah di masukan masukan password baru kalian.</strong></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
